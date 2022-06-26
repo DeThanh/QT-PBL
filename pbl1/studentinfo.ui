@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StudentInfo</class>
+ <widget class="QDialog" name="StudentInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1278</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>841</width>
+     <height>451</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>20</y>
+     <width>151</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HIỂN THỊ DANH SÁCH</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>570</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Lop">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>70</y>
+     <width>89</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lọc theo lớp</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="grade">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>120</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lọc theo khoá</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="team">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>170</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lọc theo đội</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="achive">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lọc theo thành tích</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="all">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>20</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Hiển thị toàn bộ</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lop">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>70</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="khoa">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>120</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="team_2">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>170</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="achivem">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>210</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>520</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>560</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>tableView</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>Lop</zorder>
+  <zorder>grade</zorder>
+  <zorder>team</zorder>
+  <zorder>achive</zorder>
+  <zorder>all</zorder>
+  <zorder>lop</zorder>
+  <zorder>khoa</zorder>
+  <zorder>team_2</zorder>
+  <zorder>achivem</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>comboBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

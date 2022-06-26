@@ -1,0 +1,1 @@
+Thầy set file database vào ổ C để code nhận database, set theo đường dẫn C:/sqlite3/TB1.db
